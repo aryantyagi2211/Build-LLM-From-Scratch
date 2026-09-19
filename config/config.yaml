@@ -1,0 +1,20 @@
+data:
+  file_path: "data/corpus.txt"
+  val_ratio: 0.1
+
+logging:
+  log_level: "INFO"
+  log_file: "training.log"
+
+tokenizer:
+  encoding_name: "gpt2"
+
+model:
+  vocab_size: 50257
+  max_sequence_length: 256
+  embedding_dim: 128
+  num_heads: 4
+ # use_casual_mask: TRUE
+  hidden_dim: 512
+  activation: "relu"
+  num_blocks: 4

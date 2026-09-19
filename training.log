@@ -1,0 +1,138 @@
+2026-09-16 15:54:51 - src.data_handling.data_loader - INFO - Loaded 2770 characters from data/corpus.txt
+2026-09-16 15:54:51 - src.data_handling.data_loader - INFO - Train size: 2493 chars, val_size: 277 chars
+2026-09-17 02:39:21 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/data/corpus.txt/resolve/main/README.md "HTTP/1.1 401 Unauthorized"
+2026-09-17 02:42:34 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-09-17 02:42:34 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Salesforce/wikitext/b08601e04326c79dfdd32d625aee71d232d685c3/README.md?%2Fdatasets%2FSalesforce%2Fwikitext%2Fresolve%2Fmain%2FREADME.md=&etag=%222a4fec2bc8df76c9d4da1c8e8865b625eb221c76%22 "HTTP/1.1 200 OK"
+2026-09-17 02:42:34 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext.py "HTTP/1.1 404 Not Found"
+2026-09-17 02:42:35 - httpx - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Salesforce/wikitext/Salesforce/wikitext.py "HTTP/1.1 404 Not Found"
+2026-09-17 02:42:35 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-09-17 02:42:35 - httpx - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Salesforce/wikitext "HTTP/1.1 200 OK"
+2026-09-17 02:42:36 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-09-17 02:42:37 - src.download_data - INFO - Download wikitext-2-raw-v1 and saved to data/corpus.txt
+2026-09-17 02:46:20 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-17 02:46:20 - src.data_handling.data_loader - INFO - Train size: 9803691 chars, val_size: 1089299 chars
+2026-09-17 03:01:34 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-17 03:01:35 - src.cleaning.text_cleaner - INFO - cleaning text: {len(raw_text)} chars -> {len(text)} chars
+2026-09-17 03:01:35 - src.data_handling.data_loader - INFO - Train size: 9803691 chars, val_size: 1089299 chars
+2026-09-17 03:02:40 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-17 03:02:41 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-17 03:02:41 - src.data_handling.data_loader - INFO - Train size: 9803691 chars, val_size: 1089299 chars
+2026-09-17 03:04:35 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-17 03:04:36 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-17 03:04:36 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-17 03:26:45 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-17 03:26:47 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-17 03:26:47 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-17 03:26:57 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-17 03:26:57 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-18 02:22:55 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-18 02:22:55 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-18 02:22:55 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-18 02:22:57 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-18 02:22:57 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-18 02:22:57 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-18 02:22:57 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-18 02:44:23 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-18 02:44:23 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-18 02:44:23 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-18 02:44:24 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-18 02:44:25 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-18 02:44:25 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-18 02:44:25 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-18 02:44:25 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-18 02:47:32 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-18 02:47:33 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-18 02:47:33 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-18 02:47:34 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-18 02:47:34 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-18 02:47:34 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-18 02:47:34 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-18 02:47:34 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-18 04:01:08 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-18 04:01:09 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-18 04:01:09 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-18 04:01:10 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-18 04:01:10 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-18 04:01:10 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-18 04:01:10 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-18 04:01:11 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-18 04:01:11 - __main__ - INFO - <class 'keras.src.layers.attention.multi_head_attention.MultiHeadAttention'>
+2026-09-19 01:15:57 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-19 01:15:59 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-19 01:15:59 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-19 01:16:02 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-19 01:16:02 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-19 01:16:02 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-19 01:16:02 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-19 01:16:04 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 01:16:04 - __main__ - INFO - <class 'keras.src.layers.attention.multi_head_attention.MultiHeadAttention'>
+2026-09-19 01:19:51 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-19 01:19:53 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-19 01:19:53 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-19 01:19:56 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-19 01:19:56 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-19 01:19:56 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-19 01:19:56 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-19 01:19:56 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 01:19:56 - __main__ - INFO - <class 'keras.src.layers.attention.multi_head_attention.MultiHeadAttention'>
+2026-09-19 01:20:47 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-19 01:20:49 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-19 01:20:49 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-19 01:20:52 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-19 01:20:52 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-19 01:20:52 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-19 01:20:52 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-19 01:20:52 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 01:20:52 - __main__ - INFO - <class 'keras.src.layers.attention.multi_head_attention.MultiHeadAttention'>
+2026-09-19 01:20:53 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 02:01:05 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-19 02:01:06 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-19 02:01:06 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-19 02:01:07 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-19 02:01:07 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-19 02:01:07 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-19 02:01:07 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-19 02:01:07 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 02:01:07 - __main__ - INFO - <class 'keras.src.layers.attention.multi_head_attention.MultiHeadAttention'>
+2026-09-19 02:01:07 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 02:01:07 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 02:01:07 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 02:24:15 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-19 02:24:16 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-19 02:24:16 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-19 02:24:17 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-19 02:24:17 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-19 02:24:17 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-19 02:24:17 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-19 02:25:45 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-19 02:25:46 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-19 02:25:46 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-19 02:25:48 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-19 02:25:48 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-19 02:25:48 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-19 02:25:48 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-19 02:27:12 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-19 02:27:13 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-19 02:27:13 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-19 02:27:14 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-19 02:27:14 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-19 02:27:14 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-19 02:27:14 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-19 02:27:14 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 02:27:14 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 02:27:14 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 02:27:14 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 02:27:14 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 02:27:14 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 02:27:14 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 02:27:14 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 02:27:14 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 02:27:14 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 02:27:14 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 02:27:14 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 02:27:14 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 02:27:14 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 02:27:14 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 02:27:14 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 02:27:14 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-19 02:27:14 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
