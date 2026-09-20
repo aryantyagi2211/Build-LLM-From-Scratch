@@ -136,3 +136,364 @@
 2026-09-19 02:27:14 - src.model.layer_norm - INFO - Layer Normalization created.
 2026-09-19 02:27:14 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
 2026-09-19 02:27:14 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-20 04:21:16 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-20 04:21:17 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-20 04:21:17 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-20 04:22:14 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-20 04:22:15 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-20 04:22:15 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-20 04:22:16 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-20 04:25:46 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-20 04:25:47 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-20 04:25:47 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-20 04:25:48 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-20 04:32:14 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-20 04:32:15 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-20 04:32:16 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-20 04:32:17 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-20 04:32:22 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-20 04:32:22 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-20 04:32:22 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-20 04:33:29 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-20 04:33:30 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-20 04:33:30 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-20 04:33:31 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-20 04:33:34 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-20 04:33:34 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-20 04:33:34 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-20 04:35:48 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-20 04:35:49 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-20 04:35:49 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-20 04:35:50 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-20 04:35:54 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-20 04:35:54 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-20 04:35:54 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-20 04:37:02 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-20 04:37:02 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-20 04:37:02 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-20 04:37:03 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-20 04:37:06 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-20 04:37:06 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-20 04:37:06 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-20 04:37:06 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 04:37:06 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 04:37:06 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:37:06 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:37:06 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 04:37:06 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 04:37:06 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:37:06 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:37:06 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 04:37:06 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 04:37:06 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:37:06 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:37:06 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 04:37:06 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 04:37:06 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:37:06 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:37:06 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-20 04:37:06 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-20 04:37:06 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-20 04:37:07 - src.training - INFO - Model compiled with learning rate: 0.001
+2026-09-20 04:37:07 - src.training - ERROR - Failed to train the model: 'NoneType' object has no attribute 'fit'
+2026-09-20 04:38:56 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-20 04:38:56 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-20 04:38:56 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-20 04:38:57 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-20 04:39:00 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-20 04:39:00 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-20 04:39:00 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-20 04:39:00 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 04:39:00 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 04:39:00 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:39:00 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:39:00 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 04:39:00 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 04:39:00 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:39:00 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:39:00 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 04:39:00 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 04:39:00 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:39:00 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:39:00 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 04:39:00 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 04:39:00 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:39:00 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:39:00 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-20 04:39:00 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-20 04:39:01 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-20 04:39:01 - src.training - INFO - Model compiled with learning rate: 0.001
+2026-09-20 04:39:02 - src.training - ERROR - Failed to train the model: Exception encountered when calling GPTModel.call().
+
+[1mname 'apply_transformer_stacks' is not defined[0m
+
+Arguments received by GPTModel.call():
+  • token_ids=tf.Tensor(shape=(4, 256), dtype=int32)
+2026-09-20 04:40:49 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-20 04:40:50 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-20 04:40:50 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-20 04:40:51 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-20 04:40:54 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-20 04:40:54 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-20 04:40:54 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-20 04:40:54 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 04:40:54 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 04:40:54 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:40:54 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:40:54 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 04:40:54 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 04:40:54 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:40:54 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:40:54 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 04:40:54 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 04:40:54 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:40:54 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:40:54 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 04:40:54 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 04:40:54 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:40:54 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 04:40:54 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-20 04:40:54 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-20 04:40:54 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-20 04:40:54 - src.training - INFO - Model compiled with learning rate: 0.001
+2026-09-19 23:39:22 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-19 23:39:22 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-19 23:39:22 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-19 23:39:35 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-19 23:39:38 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-19 23:39:38 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-19 23:39:38 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-19 23:39:38 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:39:38 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:39:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:39:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:39:38 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:39:38 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:39:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:39:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:39:38 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:39:38 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:39:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:39:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:39:38 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:39:38 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:39:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:39:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:39:38 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-19 23:39:38 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-19 23:40:26 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-19 23:40:27 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-19 23:40:27 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-19 23:40:34 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-19 23:40:38 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-19 23:40:38 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-19 23:40:38 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-19 23:40:38 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:40:38 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:40:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:40:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:40:38 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:40:38 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:40:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:40:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:40:38 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:40:38 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:40:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:40:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:40:38 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:40:38 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:40:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:40:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:40:38 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-19 23:40:38 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-19 23:40:38 - src.training - INFO - Training on GPU: /physical_device:GPU:0
+2026-09-19 23:40:38 - src.training - INFO - Model compiled with learning rate: 0.001
+2026-09-19 23:40:53 - src.training - ERROR - Failed to train the model: Graph execution error:
+
+Detected at node StatefulPartitionedCall defined at (most recent call last):
+  File "/mnt/d/LLM_scratch/train.py", line 44, in <module>
+
+  File "/mnt/d/LLM_scratch/src/training.py", line 44, in train_model
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 117, in error_handler
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 399, in fit
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 241, in function
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 154, in multi_step_on_iterator
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 125, in wrapper
+
+Autotuner could not compile any configs for HLO: %custom-call.109 = (f32[1024,512]{1,0}, s8[786432]{0}) custom-call(%get-tuple-element.25, %arg66.1), custom_call_target="__cublas$gemm", frontend_attributes={grad_x="true",grad_y="false"}, metadata={op_type="MatMul" op_name="gradient_tape/gpt_model_1/sequential_3_1/dense_7_1/Tensordot/MatMul/MatMul" source_file="/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/tensorflow/python/framework/ops.py" source_line=1221}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"gemm_backend_config":{"alpha_real":1,"beta":0,"dot_dimension_numbers":{"lhs_contracting_dimensions":["1"],"rhs_contracting_dimensions":["1"],"lhs_batch_dimensions":[],"rhs_batch_dimensions":[]},"alpha_imag":0,"precision_config":{"operand_precision":["DEFAULT","DEFAULT"],"algorithm":"ALG_UNSET"},"epilogue":"DEFAULT","lhs_stride":"131072","rhs_stride":"65536","grad_x":true,"grad_y":false,"damax_output":false,"autotune_workspace_size":"0"},"force_earliest_schedule":false,"reification_cost":[],"device_type":"DEVICE_TYPE_INVALID"}
+	 [[{{node StatefulPartitionedCall}}]] [Op:__inference_multi_step_on_iterator_13867]
+2026-09-19 23:41:33 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-19 23:41:33 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-19 23:41:33 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-19 23:41:44 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-19 23:41:47 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-19 23:41:47 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-19 23:41:47 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-19 23:41:47 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:41:47 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:41:47 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:41:47 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:41:47 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:41:47 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:41:47 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:41:47 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:41:47 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:41:47 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:41:47 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:41:47 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:41:47 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:41:47 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:41:47 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:41:47 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:41:47 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-19 23:41:47 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-19 23:41:47 - src.training - INFO - Training on GPU: /physical_device:GPU:0
+2026-09-19 23:41:47 - src.training - INFO - Model compiled with learning rate: 0.001
+2026-09-19 23:42:01 - src.training - ERROR - Failed to train the model: Graph execution error:
+
+Detected at node StatefulPartitionedCall defined at (most recent call last):
+  File "/mnt/d/LLM_scratch/train.py", line 44, in <module>
+
+  File "/mnt/d/LLM_scratch/src/training.py", line 44, in train_model
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 117, in error_handler
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 399, in fit
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 241, in function
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 154, in multi_step_on_iterator
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 125, in wrapper
+
+Autotuner could not compile any configs for HLO: %custom-call.109 = (f32[1024,512]{1,0}, s8[786432]{0}) custom-call(%get-tuple-element.25, %arg66.1), custom_call_target="__cublas$gemm", frontend_attributes={grad_x="true",grad_y="false"}, metadata={op_type="MatMul" op_name="gradient_tape/gpt_model_1/sequential_3_1/dense_7_1/Tensordot/MatMul/MatMul" source_file="/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/tensorflow/python/framework/ops.py" source_line=1221}, backend_config={"operation_queue_id":"0","wait_on_operation_queues":[],"gemm_backend_config":{"alpha_real":1,"beta":0,"dot_dimension_numbers":{"lhs_contracting_dimensions":["1"],"rhs_contracting_dimensions":["1"],"lhs_batch_dimensions":[],"rhs_batch_dimensions":[]},"alpha_imag":0,"precision_config":{"operand_precision":["DEFAULT","DEFAULT"],"algorithm":"ALG_UNSET"},"epilogue":"DEFAULT","lhs_stride":"131072","rhs_stride":"65536","grad_x":true,"grad_y":false,"damax_output":false,"autotune_workspace_size":"0"},"force_earliest_schedule":false,"reification_cost":[],"device_type":"DEVICE_TYPE_INVALID"}
+	 [[{{node StatefulPartitionedCall}}]] [Op:__inference_multi_step_on_iterator_13867]
+2026-09-19 23:43:09 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-19 23:43:10 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-19 23:43:10 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-19 23:43:17 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-19 23:43:21 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-19 23:43:21 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-19 23:43:21 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-19 23:43:21 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:43:21 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:43:21 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:43:21 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:43:21 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:43:21 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:43:21 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:43:21 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:43:21 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:43:21 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:43:21 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:43:21 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:43:21 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:43:21 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:43:21 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:43:21 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:43:21 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-19 23:43:21 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-19 23:43:21 - src.training - INFO - Training on GPU: /physical_device:GPU:0
+2026-09-19 23:43:21 - src.training - INFO - Model compiled with learning rate: 0.001
+2026-09-19 23:43:34 - src.training - ERROR - Failed to train the model: Graph execution error:
+
+Detected at node adam/Pow_1 defined at (most recent call last):
+  File "/mnt/d/LLM_scratch/train.py", line 44, in <module>
+
+  File "/mnt/d/LLM_scratch/src/training.py", line 45, in train_model
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 117, in error_handler
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 399, in fit
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 241, in function
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 154, in multi_step_on_iterator
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 125, in wrapper
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 134, in one_step_on_data
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 84, in train_step
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/optimizers/base_optimizer.py", line 462, in apply_gradients
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/optimizers/base_optimizer.py", line 526, in apply
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/optimizers/base_optimizer.py", line 592, in _backend_apply_gradients
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/optimizer.py", line 120, in _backend_update_step
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/optimizer.py", line 134, in _distributed_tf_update_step
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/optimizer.py", line 131, in apply_grad_to_update_var
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/optimizers/adam.py", line 110, in update_step
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/ops/numpy.py", line 8802, in power
+
+  File "/home/aryan/miniforge3/envs/llm-gpu/lib/python3.12/site-packages/keras/src/backend/tensorflow/numpy.py", line 3503, in power
+
+JIT compilation failed.
+	 [[{{node adam/Pow_1}}]] [Op:__inference_multi_step_on_iterator_13867]
+2026-09-19 23:44:27 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-19 23:44:28 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-19 23:44:28 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-19 23:44:34 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-19 23:44:38 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-19 23:44:38 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-19 23:44:38 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-19 23:44:38 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:44:38 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:44:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:44:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:44:38 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:44:38 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:44:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:44:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:44:38 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:44:38 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:44:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:44:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:44:38 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-19 23:44:38 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-19 23:44:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:44:38 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-19 23:44:38 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-19 23:44:38 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-19 23:44:38 - src.training - INFO - Training on GPU: /physical_device:GPU:0
+2026-09-19 23:44:38 - src.training - INFO - Model compiled with learning rate: 0.001
+2026-09-19 23:52:26 - src.training - INFO - Model trained for 1 epochs
+2026-09-20 05:27:15 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-20 05:27:15 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-20 05:27:15 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-20 05:27:17 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-20 05:27:22 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-20 05:27:22 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-20 05:27:22 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-20 05:27:22 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 05:27:22 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 05:27:22 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 05:27:22 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 05:27:22 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 05:27:22 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 05:27:22 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 05:27:22 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 05:27:22 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 05:27:22 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 05:27:22 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 05:27:22 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 05:27:22 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 05:27:22 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 05:27:22 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 05:27:22 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 05:27:22 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-20 05:27:22 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-20 05:27:22 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-20 05:27:22 - src.training - INFO - Model compiled with learning rate: 0.001
+2026-09-20 06:05:42 - src.training - INFO - Model trained for 1 epochs

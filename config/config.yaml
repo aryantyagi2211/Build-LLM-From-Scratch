@@ -18,3 +18,10 @@ model:
   hidden_dim: 512
   activation: "relu"
   num_blocks: 4
+
+
+train:
+  batch_size: 4
+  num_epochs: 1
+  learning_rate: 0.001
+  optimizer: "adam"
