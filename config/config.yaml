@@ -11,7 +11,7 @@ tokenizer:
 
 model:
   vocab_size: 50257
-  max_sequence_length: 256
+  max_sequence_length: 256 # we also call them context length or context window
   embedding_dim: 128
   num_heads: 4
  # use_casual_mask: TRUE
@@ -22,6 +22,11 @@ model:
 
 train:
   batch_size: 4
-  num_epochs: 1
-  learning_rate: 0.001
-  optimizer: "adam"
+  num_epochs: 2
+  learning_rate: 0.0001
+  checkpoint_dir: "checkpoints"
+  checkpoint_filename: "model_epoch_{epoch:02d}.weights.h5"
+
+inference:
+  prompt: "The history of"
+  max_new_tokens: 20

@@ -6,6 +6,9 @@ from src.tokenizer.tokenier_bpe import get_tokens, encode
 from src.model.gpt_model import GPTModel
 from src.model.dataset import create_batched_dataset
 from src.training import train_model
+from src.inference import generate_text
+from src.model.checkpoint_utils import load_checkpoint_if_exists
+from src.evaluation import evaluate_model
 
 config = load_config("config/config.yaml")
 
@@ -24,9 +27,16 @@ train_text, val_text = split_train_val(
 
 tokenizer = get_tokens(config["tokenizer"]["encoding_name"])
 train_token_ids = encode(train_text, tokenizer)
+val_token_ids = encode(val_text, tokenizer)
 
 train_dataset = create_batched_dataset(
     train_token_ids,
+    batch_size=config["train"]["batch_size"],
+    max_sequence_length=config["model"]["max_sequence_length"]
+)
+
+val_dataset = create_batched_dataset(
+    val_token_ids,
     batch_size=config["train"]["batch_size"],
     max_sequence_length=config["model"]["max_sequence_length"]
 )
@@ -41,9 +51,34 @@ model = GPTModel(
     activation=config["model"]["activation"]
 )
 
+model, last_epoch = load_checkpoint_if_exists(
+    model=model,
+    checkpoint_dir=config["train"]["checkpoint_dir"],
+    max_sequence_length=config["model"]["max_sequence_length"]
+)
+
 train_model(
     model=model,
     dataset=train_dataset,
+    val_dataset=val_dataset,
     epochs=config["train"]["num_epochs"],
-    learning_rate=config["train"]["learning_rate"]
+    learning_rate=config["train"]["learning_rate"],
+    checkpoint_dir=config["train"]["checkpoint_dir"],
+    checkpoint_filename=config["train"]["checkpoint_filename"],
+    initial_epoch=last_epoch
 )
+
+val_loss, perplexity = evaluate_model(
+    model, val_dataset
+)
+print(f"Validation Loss: {val_loss:.4f}, Perplexity: {perplexity:.4f}")
+
+generated = generate_text(
+    model=model,
+    tokenizer=tokenizer,
+    prompt=config["inference"]["prompt"],
+    max_new_tokens=config["inference"]["max_new_tokens"],
+    max_sequence_length=config["model"]["max_sequence_length"]
+)
+
+print("Generated Text:", generated)

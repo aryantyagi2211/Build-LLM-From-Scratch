@@ -497,3 +497,658 @@ JIT compilation failed.
 2026-09-20 05:27:22 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
 2026-09-20 05:27:22 - src.training - INFO - Model compiled with learning rate: 0.001
 2026-09-20 06:05:42 - src.training - INFO - Model trained for 1 epochs
+2026-09-20 21:31:00 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-20 21:31:01 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-20 21:31:01 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-20 21:31:03 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-20 21:31:10 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-20 21:31:10 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-20 21:31:10 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-20 21:31:10 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 21:31:10 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 21:31:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 21:31:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 21:31:10 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 21:31:10 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 21:31:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 21:31:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 21:31:10 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 21:31:10 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 21:31:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 21:31:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 21:31:10 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-20 21:31:10 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-20 21:31:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 21:31:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-20 21:31:10 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-20 21:31:10 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-20 21:31:10 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-20 21:31:10 - src.training - INFO - Model compiled with learning rate: 0.003
+2026-09-21 03:03:05 - src.training - INFO - Model trained for 3 epochs
+2026-09-21 03:29:24 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-21 03:29:25 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-21 03:29:25 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-21 03:29:26 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-21 03:29:29 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-21 03:29:29 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-21 03:29:29 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-21 03:29:29 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-21 03:29:29 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-21 03:29:29 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-21 03:29:29 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-21 03:29:29 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-21 03:29:29 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-21 03:29:29 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-21 03:29:29 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-21 03:29:29 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-21 03:29:29 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-21 03:29:29 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-21 03:29:29 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-21 03:29:29 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-21 03:29:29 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-21 03:29:29 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-21 03:29:29 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-21 03:29:29 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-21 03:29:29 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-21 03:29:29 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-21 03:29:29 - src.training - INFO - Model compiled with learning rate: 0.0001
+2026-09-21 05:19:41 - src.training - INFO - Model trained for 3 epochs
+2026-09-21 05:34:02 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-21 05:34:03 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-21 05:34:03 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-21 05:34:04 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-21 05:34:07 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-21 05:34:07 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-21 05:34:07 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-21 05:34:07 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-21 05:34:07 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-21 05:34:07 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-21 05:34:07 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-21 05:34:07 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-21 05:34:07 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-21 05:34:07 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-21 05:34:07 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-21 05:34:07 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-21 05:34:07 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-21 05:34:07 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-21 05:34:07 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-21 05:34:07 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-21 05:34:07 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-21 05:34:07 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-21 05:34:07 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-21 05:34:07 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-21 05:34:07 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-21 05:34:07 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-21 05:34:07 - src.training - INFO - Model compiled with learning rate: 0.0001
+2026-09-21 07:28:59 - src.training - INFO - Model trained for 3 epochs
+2026-09-22 03:17:12 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-22 03:17:12 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-22 03:17:12 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-22 03:17:14 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-22 03:17:18 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 03:17:18 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 03:17:18 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 03:17:18 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 03:17:18 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 03:17:18 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 03:17:18 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 03:17:18 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 03:17:18 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 03:17:18 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 03:17:18 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 03:17:18 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 03:17:18 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 03:17:18 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 03:17:18 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 03:17:18 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 03:17:18 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 03:17:18 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 03:17:18 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 03:17:18 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 03:17:18 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 03:17:18 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 03:17:18 - src.training - INFO - Model compiled with learning rate: 0.0001
+2026-09-22 05:09:40 - src.training - INFO - Model trained for 3 epochs
+2026-09-22 05:16:58 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-22 05:16:59 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-22 05:16:59 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-22 05:17:00 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-22 05:17:03 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 05:17:03 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 05:17:03 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 05:17:03 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 05:17:03 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 05:17:03 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 05:17:03 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 05:17:03 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 05:17:03 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 05:17:03 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 05:17:03 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 05:17:03 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 05:17:03 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 05:17:03 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 05:17:03 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 05:17:03 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 05:17:03 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 05:17:03 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 05:17:03 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 05:17:03 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 05:17:03 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 05:17:03 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 05:17:03 - src.training - INFO - Model compiled with learning rate: 0.0001
+2026-09-22 05:26:05 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-22 05:26:06 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-22 05:26:06 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-22 05:26:07 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-22 05:26:10 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 05:26:10 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 05:26:10 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 05:26:10 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 05:26:10 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 05:26:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 05:26:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 05:26:10 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 05:26:10 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 05:26:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 05:26:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 05:26:10 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 05:26:10 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 05:26:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 05:26:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 05:26:10 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 05:26:10 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 05:26:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 05:26:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 05:26:10 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 05:26:10 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 05:26:10 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 05:26:10 - src.training - INFO - Model compiled with learning rate: 0.0001
+2026-09-22 06:03:29 - src.training - INFO - Model trained for 1 epochs
+2026-09-22 06:05:09 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-22 06:05:09 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-22 06:05:09 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-22 06:05:10 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-22 06:05:13 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 06:05:13 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 06:05:13 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 06:05:13 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 06:05:13 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 06:05:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:05:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:05:13 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 06:05:13 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 06:05:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:05:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:05:13 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 06:05:13 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 06:05:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:05:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:05:13 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 06:05:13 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 06:05:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:05:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:05:13 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 06:05:13 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 06:05:13 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 06:05:13 - src.training - INFO - Model compiled with learning rate: 0.0001
+2026-09-22 06:24:08 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-22 06:24:09 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-22 06:24:09 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-22 06:24:10 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-22 06:24:10 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-22 06:24:13 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 06:24:13 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 06:24:13 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 06:24:13 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 06:24:13 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 06:24:13 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 06:24:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:24:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:24:13 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 06:24:13 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 06:24:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:24:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:24:13 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 06:24:13 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 06:24:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:24:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:24:13 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 06:24:13 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 06:24:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:24:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:24:13 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 06:24:13 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 06:24:13 - src.model.checkpoint_utils - INFO - No checkpoint files found in checkpoints
+2026-09-22 06:24:13 - src.model.checkpoint_utils - INFO - No checkpoint found. Starting training from scratch.
+2026-09-22 06:24:13 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 06:24:13 - src.training - INFO - Model compiled with learning rate: 0.0001
+2026-09-22 06:25:26 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-22 06:25:27 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-22 06:25:27 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-22 06:25:28 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-22 06:25:28 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-22 06:25:31 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 06:25:31 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 06:25:31 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 06:25:31 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 06:25:31 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 06:25:31 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 06:25:31 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:25:31 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:25:31 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 06:25:31 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 06:25:31 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:25:31 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:25:31 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 06:25:31 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 06:25:31 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:25:31 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:25:31 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 06:25:31 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 06:25:31 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:25:31 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 06:25:31 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 06:25:31 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 06:25:31 - src.model.checkpoint_utils - INFO - No checkpoint files found in checkpoints
+2026-09-22 06:25:31 - src.model.checkpoint_utils - INFO - No checkpoint found. Starting training from scratch.
+2026-09-22 06:25:31 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 06:25:31 - src.training - INFO - Model compiled with learning rate: 0.0001
+2026-09-22 07:03:35 - src.training - INFO - Epoch 0, Final Loss: 13.7106
+2026-09-22 07:03:35 - src.training - INFO - Model trained for 1 epochs
+2026-09-22 07:05:23 - src.evaluation - INFO - Calculated perplexity: [1.09510376e+06 1.00157439e+00]
+2026-09-22 07:09:41 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-22 07:09:42 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-22 07:09:42 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-22 07:09:43 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-22 07:09:43 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-22 07:09:46 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 07:09:47 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 07:09:47 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 07:09:47 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 07:09:47 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:09:47 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:09:47 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:09:47 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:09:47 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:09:47 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:09:47 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:09:47 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:09:47 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:09:47 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:09:47 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:09:47 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:09:47 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:09:47 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:09:47 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:09:47 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:09:47 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 07:09:47 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 07:09:47 - src.model.checkpoint_utils - INFO - Latest checkpoint found: checkpoints\model_epoch_01.weights.h5
+2026-09-22 07:09:48 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 07:09:48 - src.model.checkpoint_utils - INFO - Loaded weights from checkpoints\model_epoch_01.weights.h5 for epoch 1
+2026-09-22 07:09:48 - src.training - INFO - Model compiled with learning rate: 0.0001
+2026-09-22 07:10:58 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-22 07:10:58 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-22 07:10:58 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-22 07:10:59 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-22 07:11:00 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-22 07:11:03 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 07:11:03 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 07:11:03 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 07:11:03 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 07:11:03 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:11:03 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:11:03 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:11:03 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:11:03 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:11:03 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:11:03 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:11:03 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:11:03 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:11:03 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:11:03 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:11:03 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:11:03 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:11:03 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:11:03 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:11:03 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:11:03 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 07:11:03 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 07:11:03 - src.model.checkpoint_utils - INFO - Latest checkpoint found: checkpoints\model_epoch_01.weights.h5
+2026-09-22 07:11:04 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 07:11:04 - src.model.checkpoint_utils - INFO - Loaded weights from checkpoints\model_epoch_01.weights.h5 for epoch 1
+2026-09-22 07:11:04 - src.training - INFO - Model compiled with learning rate: 0.0001
+2026-09-22 07:11:32 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-22 07:11:32 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-22 07:11:32 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-22 07:11:33 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-22 07:11:33 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-22 07:11:37 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 07:11:37 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 07:11:37 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 07:11:37 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 07:11:37 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:11:37 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:11:37 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:11:37 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:11:37 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:11:37 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:11:37 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:11:37 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:11:37 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:11:37 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:11:37 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:11:37 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:11:37 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:11:37 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:11:37 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:11:37 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:11:37 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 07:11:37 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 07:11:37 - src.model.checkpoint_utils - INFO - Latest checkpoint found: checkpoints\model_epoch_01.weights.h5
+2026-09-22 07:11:38 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 07:11:38 - src.model.checkpoint_utils - INFO - Loaded weights from checkpoints\model_epoch_01.weights.h5 for epoch 1
+2026-09-22 07:11:38 - src.training - INFO - Model compiled with learning rate: 0.0001
+2026-09-22 07:12:31 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-22 07:12:31 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-22 07:12:31 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-22 07:12:32 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-22 07:12:32 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-22 07:12:35 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 07:12:36 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 07:12:36 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 07:12:36 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 07:12:36 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:12:36 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:12:36 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:12:36 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:12:36 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:12:36 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:12:36 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:12:36 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:12:36 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:12:36 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:12:36 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:12:36 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:12:36 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:12:36 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:12:36 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:12:36 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:12:36 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 07:12:36 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 07:12:36 - src.model.checkpoint_utils - INFO - Latest checkpoint found: checkpoints\model_epoch_01.weights.h5
+2026-09-22 07:12:37 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 07:12:37 - src.model.checkpoint_utils - INFO - Loaded weights from checkpoints\model_epoch_01.weights.h5 for epoch 1
+2026-09-22 07:12:37 - src.training - INFO - Model compiled with learning rate: 0.0001
+2026-09-22 07:14:08 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-22 07:14:08 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-22 07:14:08 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-22 07:14:09 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-22 07:14:10 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-22 07:14:13 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 07:14:13 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 07:14:13 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 07:14:13 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 07:14:13 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:14:13 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:14:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:14:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:14:13 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:14:13 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:14:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:14:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:14:13 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:14:13 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:14:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:14:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:14:13 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 07:14:13 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 07:14:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:14:13 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 07:14:13 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 07:14:13 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 07:14:13 - src.model.checkpoint_utils - INFO - Latest checkpoint found: checkpoints\model_epoch_01.weights.h5
+2026-09-22 07:14:14 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 07:14:14 - src.model.checkpoint_utils - INFO - Loaded weights from checkpoints\model_epoch_01.weights.h5 for epoch 1
+2026-09-22 07:14:14 - src.training - INFO - Model compiled with learning rate: 0.0001
+2026-09-22 15:07:42 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-22 15:07:43 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-22 15:07:43 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-22 15:07:45 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-22 15:07:45 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-22 15:07:51 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 15:07:51 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 15:07:52 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 15:07:52 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 15:07:52 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 15:07:52 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 15:07:52 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 15:07:52 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 15:07:52 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 15:07:52 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 15:07:52 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 15:07:52 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 15:07:52 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 15:07:52 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 15:07:52 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 15:07:52 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 15:07:52 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 15:07:52 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 15:07:52 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 15:07:52 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 15:07:52 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 15:07:52 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 15:07:52 - src.model.checkpoint_utils - INFO - Latest checkpoint found: checkpoints\model_epoch_01.weights.h5
+2026-09-22 15:07:55 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 15:07:55 - src.model.checkpoint_utils - INFO - Loaded weights from checkpoints\model_epoch_01.weights.h5 for epoch 1
+2026-09-22 15:07:55 - src.training - INFO - Model compiled with learning rate: 0.0001
+2026-09-22 15:45:28 - src.training - INFO - Epoch 0, Final Loss: 11.2954
+2026-09-22 15:45:28 - src.training - INFO - Model trained for 2 epochs
+2026-09-22 15:47:25 - src.evaluation - INFO - Calculated perplexity: [5.02571576e+04 1.00491616e+00]
+2026-09-22 16:10:20 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-22 16:10:21 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-22 16:10:21 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-22 16:10:22 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-22 16:10:22 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-22 16:10:25 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 16:10:25 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 16:10:25 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 16:10:25 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 16:10:25 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:10:25 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:10:25 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:10:25 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:10:25 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:10:25 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:10:25 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:10:25 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:10:25 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:10:25 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:10:25 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:10:25 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:10:25 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:10:25 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:10:25 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:10:25 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:10:25 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 16:10:25 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 16:10:25 - src.model.checkpoint_utils - INFO - Latest checkpoint found: checkpoints\model_epoch_02.weights.h5
+2026-09-22 16:10:26 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 16:10:26 - src.model.checkpoint_utils - INFO - Loaded weights from checkpoints\model_epoch_02.weights.h5 for epoch 2
+2026-09-22 16:10:26 - src.training - INFO - Model compiled with learning rate: 0.0001
+2026-09-22 16:19:46 - src.data_handling.data_loader - INFO - Loaded 10892990 characters from data/corpus.txt
+2026-09-22 16:19:46 - src.cleaning.text_cleaner - INFO - cleaning text: 10892990 chars -> 8691671 chars
+2026-09-22 16:19:46 - src.data_handling.data_loader - INFO - Train size: 7822503 chars, val_size: 869168 chars
+2026-09-22 16:19:47 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 7822503 characters info 2529472 tokens
+2026-09-22 16:19:48 - src.tokenizer.tokenier_bpe - INFO - tokens_ids: 869168 characters info 282930 tokens
+2026-09-22 16:19:51 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 16:19:51 - src.model.dataset - INFO - Batched dataset created with batch size: 4 and max sequence length: 256
+2026-09-22 16:19:51 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 16:19:51 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 16:19:51 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:19:51 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:19:51 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:19:51 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:19:51 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:19:51 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:19:51 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:19:51 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:19:51 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:19:51 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:19:51 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:19:51 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:19:51 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:19:51 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:19:51 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:19:51 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:19:51 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 16:19:51 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 16:19:51 - src.model.checkpoint_utils - INFO - Latest checkpoint found: checkpoints\model_epoch_02.weights.h5
+2026-09-22 16:19:52 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 16:19:52 - src.model.checkpoint_utils - INFO - Loaded weights from checkpoints\model_epoch_02.weights.h5 for epoch 2
+2026-09-22 16:19:52 - src.training - INFO - Model compiled with learning rate: 0.0001
+2026-09-22 16:19:52 - src.training - WARNING - Checkpoint already at epoch 2, target epochs=2. Nothing to train — increase epochs in config to continue.
+2026-09-22 16:21:43 - src.evaluation - INFO - Calculated perplexity: 50257.15764784631
+2026-09-22 16:21:43 - src.evaluation - INFO - Validation loss: 10.824908256530762, Perplexity: 50257.1576
+2026-09-22 16:24:05 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 16:24:05 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 16:24:05 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:24:05 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:24:05 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:24:05 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:24:05 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:24:05 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:24:05 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:24:05 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:24:05 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:24:05 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:24:05 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:24:05 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:24:05 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:24:05 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:24:05 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:24:05 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:24:05 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 16:24:05 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 16:24:05 - src.model.checkpoint_utils - INFO - Latest checkpoint found: checkpoints\model_epoch_02.weights.h5
+2026-09-22 16:24:06 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 16:24:06 - src.model.checkpoint_utils - INFO - Loaded weights from checkpoints\model_epoch_02.weights.h5 for epoch 2
+2026-09-22 16:34:17 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 16:34:17 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 16:34:17 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:34:17 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:34:17 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:34:17 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:34:17 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:34:17 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:34:17 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:34:17 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:34:17 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:34:17 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:34:17 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:34:17 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:34:17 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:34:17 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:34:17 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:34:17 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:34:17 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 16:34:17 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 16:34:17 - src.model.checkpoint_utils - INFO - Latest checkpoint found: checkpoints\model_epoch_02.weights.h5
+2026-09-22 16:34:17 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 16:34:17 - src.model.checkpoint_utils - INFO - Loaded weights from checkpoints\model_epoch_02.weights.h5 for epoch 2
+2026-09-22 16:34:52 - src.guardrails - WARNING - Input prompt is empty or whitespace.
+2026-09-22 16:35:20 - src.guardrails - WARNING - Input prompt is empty or whitespace.
+2026-09-22 16:37:44 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 16:37:44 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 16:37:44 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:37:44 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:37:44 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:37:44 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:37:44 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:37:44 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:37:44 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:37:44 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:37:44 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:37:44 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:37:44 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:37:44 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:37:44 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:37:44 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:37:44 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:37:44 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:37:44 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 16:37:44 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 16:37:44 - src.model.checkpoint_utils - INFO - Latest checkpoint found: checkpoints\model_epoch_02.weights.h5
+2026-09-22 16:37:45 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 16:37:45 - src.model.checkpoint_utils - INFO - Loaded weights from checkpoints\model_epoch_02.weights.h5 for epoch 2
+2026-09-22 16:38:14 - src.guardrails - WARNING - Input prompt is empty or whitespace.
+2026-09-22 16:39:22 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 16:39:22 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 16:39:22 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:39:22 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:39:22 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:39:22 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:39:22 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:39:22 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:39:22 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:39:22 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:39:22 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:39:22 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:39:22 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:39:22 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:39:22 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:39:22 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:39:22 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:39:22 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:39:22 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 16:39:22 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 16:39:22 - src.model.checkpoint_utils - INFO - Latest checkpoint found: checkpoints\model_epoch_02.weights.h5
+2026-09-22 16:39:23 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 16:39:23 - src.model.checkpoint_utils - INFO - Loaded weights from checkpoints\model_epoch_02.weights.h5 for epoch 2
+2026-09-22 16:39:32 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 16:39:32 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 16:39:32 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:39:32 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:39:32 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:39:32 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:39:32 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:39:32 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:39:32 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:39:32 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:39:32 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:39:32 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:39:32 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:39:32 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:39:32 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:39:32 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:39:32 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:39:32 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:39:32 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 16:39:32 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 16:39:32 - src.model.checkpoint_utils - INFO - Latest checkpoint found: checkpoints\model_epoch_02.weights.h5
+2026-09-22 16:39:33 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 16:39:33 - src.model.checkpoint_utils - INFO - Loaded weights from checkpoints\model_epoch_02.weights.h5 for epoch 2
+2026-09-22 16:40:10 - src.model.embedding - INFO - Embedding layer created: Vocab size: 50257 and embedding dim: 128
+2026-09-22 16:40:10 - src.model.positional_encoding - INFO - Created positional encoding layer: max_sequence_length=256, embedding_dim=128
+2026-09-22 16:40:10 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:40:10 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:40:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:40:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:40:10 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:40:10 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:40:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:40:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:40:10 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:40:10 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:40:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:40:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:40:10 - src.model.attention - INFO - Attention layer created: num heads=4, embedding_dim=128
+2026-09-22 16:40:10 - src.model.feed_forward - INFO - Feed Forward Layer created: embedding_dim=128, hidden_dim=512, activation=relu
+2026-09-22 16:40:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:40:10 - src.model.layer_norm - INFO - Layer Normalization created.
+2026-09-22 16:40:10 - src.model.transformer_block - INFO - Transformer stack created with 4 blocks
+2026-09-22 16:40:10 - src.model.output_layer - INFO - Output layer created: vocab_size=50257
+2026-09-22 16:40:10 - src.model.checkpoint_utils - INFO - Latest checkpoint found: checkpoints\model_epoch_02.weights.h5
+2026-09-22 16:40:10 - tensorflow - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-22 16:40:11 - src.model.checkpoint_utils - INFO - Loaded weights from checkpoints\model_epoch_02.weights.h5 for epoch 2
+2026-09-22 16:40:27 - src.guardrails - WARNING - Input prompt is empty or whitespace.
